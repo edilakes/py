@@ -12,7 +12,7 @@ auth.set_access_token(access_token, access_token_secret)
 
 api = tweepy.API(auth)
 
-public_tweets = api.search_tweets('Rayan')
+public_tweets = api.search_tweets('Putin')
 
 sumatorio_sentiment = 0
 
